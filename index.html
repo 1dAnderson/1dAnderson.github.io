@@ -1,28 +1,54 @@
-<html>
-    <head>
-        <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
-        <link href="styles/style.css" rel="stylesheet">
-        <meta charset="utf-8">
-        <title>My first site</title>
-    </head>
-    <body>
-        <button>切换用户</button>
-        <h1>zero-error</h1>
-        <h2>zer0-warning</h2>
-        <h3>thumb-up</h3>
-        <h4>smile</h4>
-        <img src="image/t2.jpg" alt="0-error,0-warning">
-        <p>this is my first site test</p>
-        <ul>
-            <li>student</li>
-            <li>teacher</li>
-        </ul>
-        <ol>
-            <li>people</li>
-            <li>mountain</li>
-        </ol>
-        <p>我的网站</p>
-        <a href="https://space.bilibili.com/128567523?spm_id_from=333.1007.0.0">bilibili</a>
-        <script src="scripts/main.js" defer></script>
-    </body>
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>我的个人网站</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">自我介绍</a></li>
+                <li><a href="#portfolio">作品展示</a></li>
+                <li><a href="#links">账号链接</a></li>
+                <li><a href="#blog">日记/随笔</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>自我介绍</h2>
+            <p>这里是我的自我介绍...</p>
+        </section>
+        <section id="portfolio">
+            <h2>作品展示</h2>
+            <div class="gallery">
+                <!-- 作品图片和描述 -->
+            </div>
+        </section>
+        <section id="links">
+            <h2>账号链接</h2>
+            <ul>
+                <li><a href="https://github.com/你的用户名">GitHub</a></li>
+                <li><a href="https://twitter.com/你的用户名">Twitter</a></li>
+                <!-- 其他账号链接 -->
+            </ul>
+        </section>
+        <section id="blog">
+            <h2>日记/随笔</h2>
+            <article>
+                <h3>文章标题</h3>
+                <p>文章内容...</p>
+            </article>
+            <!-- 更多文章 -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 我的个人网站</p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
 </html>
